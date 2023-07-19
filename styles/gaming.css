@@ -261,3 +261,26 @@ header {
     font-size: 16px;
     font-weight: 500;
 }
+@media screen and (max-width:576px) {
+    .nav-container,.nav-items-container ul,.banner,.feature-img-container,.play-section,.game-section-1,.game-section-2,.story{
+        flex-direction: column;
+    }
+    .feature-section{
+        max-width: 300px;
+    
+    }
+    .game-section{
+        padding: 30px 50px;
+    }
+    .footer-section{
+        margin-top: 45px;
+        background: #0B0223;
+        padding: 0;
+        
+    }
+    .banner img{
+        width: 100%;
+    }
+
+    
+}
