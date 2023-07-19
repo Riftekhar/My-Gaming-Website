@@ -74,7 +74,24 @@ header {
     border-radius: 16px;
     background-color: #0B0223;
 }
+.play-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+}
+.play-content{
+    margin-left: 100px;
+}
+#img-1{
+    width: 300px;
+    margin-top: 120px;
+}
+#img-2{
+    width:150px ;
+    position: relative;
+    bottom: 100px;
+}
 
 .caption {
     color: #534C64;
