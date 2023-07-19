@@ -224,3 +224,40 @@ header {
     font-size: 20px;
     font-weight: 600;
 }
+
+.footer-section {
+    margin-top: 125px;
+    background: #0B0223;
+    padding: 120px 300px;
+}
+
+.and {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+}
+
+.story {
+    display: flex;
+    gap: 20px;
+}
+
+.our {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.small {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
