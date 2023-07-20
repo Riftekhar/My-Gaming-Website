@@ -237,13 +237,13 @@ header {
     font-size: 45px;
     font-weight: 700;
 }
-.center{
-    text-align: center;
-}
+
+
 
 .story {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .our {
@@ -254,6 +254,14 @@ header {
     font-weight: 600;
 }
 
+.terms {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .small {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
@@ -261,26 +269,39 @@ header {
     font-size: 16px;
     font-weight: 500;
 }
+
 @media screen and (max-width:576px) {
-    .nav-container,.nav-items-container ul,.banner,.feature-img-container,.play-section,.game-section-1,.game-section-2,.story{
+
+    .nav-container,
+    .nav-items-container ul,
+    .banner,
+    .feature-img-container,
+    .play-section,
+    .game-section-1,
+    .game-section-2,
+    .story {
         flex-direction: column;
     }
-    .feature-section{
+
+    .feature-section {
         max-width: 300px;
-    
+
     }
-    .game-section{
+
+    .game-section {
         padding: 30px 50px;
     }
-    .footer-section{
+
+    .footer-section {
         margin-top: 45px;
         background: #0B0223;
         padding: 0;
-        
+
     }
-    .banner img{
+
+    .banner img {
         width: 100%;
     }
 
-    
+
 }
