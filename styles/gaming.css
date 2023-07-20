@@ -154,6 +154,7 @@ header {
     padding: 20px 40px;
     text-transform: uppercase;
     background-color: #4EC5F7;
+    border: 0;
 }
 
 .banner img {
@@ -161,7 +162,7 @@ header {
 }
 
 #images {
-    width: 500px;
+    width: 100%;
 }
 
 
@@ -282,6 +283,12 @@ header {
     .story {
         flex-direction: column;
     }
+    header{
+        padding: 30px;
+    }
+    .play-content{
+        margin-left: 0;
+    }
 
     .feature-section {
         max-width: 300px;
@@ -304,4 +311,21 @@ header {
     }
 
 
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    .footer-section{
+        max-width: 960px;
+        padding: 50px;
+    }
+    .feature-img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .game-section{
+        padding: 30px;
+    }
+    header{
+        padding: 10px;
+    }
+    
 }
